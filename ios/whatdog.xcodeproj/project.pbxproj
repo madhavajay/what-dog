@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C3C9DCB1ED3AB4200B8B5FA /* ios_image_load.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1C3C9DC91ED3AB4200B8B5FA /* ios_image_load.mm */; };
+		1C3C9DCC1ED3AB4200B8B5FA /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1C3C9DCA1ED3AB4200B8B5FA /* main.mm */; };
+		1C99111C1ED3B0E600A6BFB9 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C99111B1ED3B0E600A6BFB9 /* MainStoryboard_iPhone.storyboard */; };
+		1CA5EB931ED3ABFB00247A34 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CA5EB921ED3ABFB00247A34 /* CoreMedia.framework */; };
+		1CB47D491ED3AD1700DF7666 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CB47D481ED3AD1700DF7666 /* AVFoundation.framework */; };
+		1CDB2D491ED3A9CD007929E9 /* CameraExampleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CDB2D431ED3A9CD007929E9 /* CameraExampleAppDelegate.m */; };
+		1CDB2D4A1ED3A9CD007929E9 /* CameraExampleViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1CDB2D451ED3A9CD007929E9 /* CameraExampleViewController.mm */; };
+		1CDB2D4C1ED3A9CD007929E9 /* tensorflow_utils.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1CDB2D481ED3A9CD007929E9 /* tensorflow_utils.mm */; };
+		1CDB2D4E1ED3AA35007929E9 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1CDB2D4D1ED3AA35007929E9 /* Info.plist */; };
+		E2012C6A1F0C22250054FF5A /* dog_breed_graph_v1.pb in Resources */ = {isa = PBXBuildFile; fileRef = E2012C681F0C22250054FF5A /* dog_breed_graph_v1.pb */; };
+		E2012C6B1F0C22250054FF5A /* dog_breed_labels.txt in Resources */ = {isa = PBXBuildFile; fileRef = E2012C691F0C22250054FF5A /* dog_breed_labels.txt */; };
+		E2012C6D1F0C22880054FF5A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2012C6C1F0C22880054FF5A /* Images.xcassets */; };
+		F141010135B99B2305B537E6 /* Pods_whatdog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37F29186720B2D6BBB20B8C5 /* Pods_whatdog.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1C0D73481ECCC41B008C1DAB /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		1C0D734A1ECCC460008C1DAB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1C3C9DC81ED3AB4200B8B5FA /* ios_image_load.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ios_image_load.h; sourceTree = "<group>"; };
+		1C3C9DC91ED3AB4200B8B5FA /* ios_image_load.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ios_image_load.mm; sourceTree = "<group>"; };
+		1C3C9DCA1ED3AB4200B8B5FA /* main.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
+		1C564C0D1ED3A92E00087306 /* whatdog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = whatdog.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C99111B1ED3B0E600A6BFB9 /* MainStoryboard_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		1CA45FFE1ECCC356002FA6A4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1CA5EB921ED3ABFB00247A34 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		1CB47D481ED3AD1700DF7666 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		1CDB2D421ED3A9CD007929E9 /* CameraExampleAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraExampleAppDelegate.h; sourceTree = "<group>"; };
+		1CDB2D431ED3A9CD007929E9 /* CameraExampleAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraExampleAppDelegate.m; sourceTree = "<group>"; };
+		1CDB2D441ED3A9CD007929E9 /* CameraExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraExampleViewController.h; sourceTree = "<group>"; };
+		1CDB2D451ED3A9CD007929E9 /* CameraExampleViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CameraExampleViewController.mm; sourceTree = "<group>"; };
+		1CDB2D471ED3A9CD007929E9 /* tensorflow_utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tensorflow_utils.h; sourceTree = "<group>"; };
+		1CDB2D481ED3A9CD007929E9 /* tensorflow_utils.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = tensorflow_utils.mm; sourceTree = "<group>"; };
+		1CDB2D4D1ED3AA35007929E9 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37F29186720B2D6BBB20B8C5 /* Pods_whatdog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_whatdog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BC5BE4BBD09374D3E98F082 /* Pods-whatdog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-whatdog.debug.xcconfig"; path = "Pods/Target Support Files/Pods-whatdog/Pods-whatdog.debug.xcconfig"; sourceTree = "<group>"; };
+		55ED318E8D29C8AFEF03DF1E /* Pods-whatdog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-whatdog.release.xcconfig"; path = "Pods/Target Support Files/Pods-whatdog/Pods-whatdog.release.xcconfig"; sourceTree = "<group>"; };
+		E2012C681F0C22250054FF5A /* dog_breed_graph_v1.pb */ = {isa = PBXFileReference; lastKnownFileType = file; name = dog_breed_graph_v1.pb; path = ../data/dog_breed_graph_v1.pb; sourceTree = "<group>"; };
+		E2012C691F0C22250054FF5A /* dog_breed_labels.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = dog_breed_labels.txt; path = ../data/dog_breed_labels.txt; sourceTree = "<group>"; };
+		E2012C6C1F0C22880054FF5A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = whatdog/Images.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1C564C0A1ED3A92E00087306 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CB47D491ED3AD1700DF7666 /* AVFoundation.framework in Frameworks */,
+				1CA5EB931ED3ABFB00247A34 /* CoreMedia.framework in Frameworks */,
+				F141010135B99B2305B537E6 /* Pods_whatdog.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24D7686C331131624F4454A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1CB47D481ED3AD1700DF7666 /* AVFoundation.framework */,
+				1CA5EB921ED3ABFB00247A34 /* CoreMedia.framework */,
+				1C0D734A1ECCC460008C1DAB /* CoreGraphics.framework */,
+				1C0D73481ECCC41B008C1DAB /* CoreImage.framework */,
+				1CA45FFE1ECCC356002FA6A4 /* UIKit.framework */,
+				37F29186720B2D6BBB20B8C5 /* Pods_whatdog.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3E9FC355632FB928EA23BEED /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3BC5BE4BBD09374D3E98F082 /* Pods-whatdog.debug.xcconfig */,
+				55ED318E8D29C8AFEF03DF1E /* Pods-whatdog.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		591157921CF4011C00C31E3A = {
+			isa = PBXGroup;
+			children = (
+				E2012C6C1F0C22880054FF5A /* Images.xcassets */,
+				E2012C671F0C22120054FF5A /* data */,
+				1C99111B1ED3B0E600A6BFB9 /* MainStoryboard_iPhone.storyboard */,
+				1C3C9DC81ED3AB4200B8B5FA /* ios_image_load.h */,
+				1C3C9DC91ED3AB4200B8B5FA /* ios_image_load.mm */,
+				1C3C9DCA1ED3AB4200B8B5FA /* main.mm */,
+				1CDB2D4D1ED3AA35007929E9 /* Info.plist */,
+				1CDB2D421ED3A9CD007929E9 /* CameraExampleAppDelegate.h */,
+				1CDB2D431ED3A9CD007929E9 /* CameraExampleAppDelegate.m */,
+				1CDB2D441ED3A9CD007929E9 /* CameraExampleViewController.h */,
+				1CDB2D451ED3A9CD007929E9 /* CameraExampleViewController.mm */,
+				1CDB2D471ED3A9CD007929E9 /* tensorflow_utils.h */,
+				1CDB2D481ED3A9CD007929E9 /* tensorflow_utils.mm */,
+				5911579C1CF4011C00C31E3A /* Products */,
+				3E9FC355632FB928EA23BEED /* Pods */,
+				24D7686C331131624F4454A0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5911579C1CF4011C00C31E3A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1C564C0D1ED3A92E00087306 /* whatdog.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E2012C671F0C22120054FF5A /* data */ = {
+			isa = PBXGroup;
+			children = (
+				E2012C681F0C22250054FF5A /* dog_breed_graph_v1.pb */,
+				E2012C691F0C22250054FF5A /* dog_breed_labels.txt */,
+			);
+			name = data;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1C564C0C1ED3A92E00087306 /* whatdog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C564C351ED3A92E00087306 /* Build configuration list for PBXNativeTarget "whatdog" */;
+			buildPhases = (
+				66DAEAAEE9EF6550C3A061E0 /* [CP] Check Pods Manifest.lock */,
+				1C564C091ED3A92E00087306 /* Sources */,
+				1C564C0A1ED3A92E00087306 /* Frameworks */,
+				1C564C0B1ED3A92E00087306 /* Resources */,
+				00E875C3B066535AE6B77101 /* [CP] Embed Pods Frameworks */,
+				5C2D02120E3E5E09567AA946 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = whatdog;
+			productName = whatdog;
+			productReference = 1C564C0D1ED3A92E00087306 /* whatdog.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		591157931CF4011C00C31E3A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Google;
+				TargetAttributes = {
+					1C564C0C1ED3A92E00087306 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = A8GCV2M324;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 591157961CF4011C00C31E3A /* Build configuration list for PBXProject "whatdog" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 591157921CF4011C00C31E3A;
+			productRefGroup = 5911579C1CF4011C00C31E3A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1C564C0C1ED3A92E00087306 /* whatdog */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1C564C0B1ED3A92E00087306 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C99111C1ED3B0E600A6BFB9 /* MainStoryboard_iPhone.storyboard in Resources */,
+				E2012C6D1F0C22880054FF5A /* Images.xcassets in Resources */,
+				E2012C6A1F0C22250054FF5A /* dog_breed_graph_v1.pb in Resources */,
+				1CDB2D4E1ED3AA35007929E9 /* Info.plist in Resources */,
+				E2012C6B1F0C22250054FF5A /* dog_breed_labels.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00E875C3B066535AE6B77101 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-whatdog/Pods-whatdog-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C2D02120E3E5E09567AA946 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-whatdog/Pods-whatdog-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		66DAEAAEE9EF6550C3A061E0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C564C091ED3A92E00087306 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CDB2D4C1ED3A9CD007929E9 /* tensorflow_utils.mm in Sources */,
+				1C3C9DCB1ED3AB4200B8B5FA /* ios_image_load.mm in Sources */,
+				1CDB2D4A1ED3A9CD007929E9 /* CameraExampleViewController.mm in Sources */,
+				1CDB2D491ED3A9CD007929E9 /* CameraExampleAppDelegate.m in Sources */,
+				1C3C9DCC1ED3AB4200B8B5FA /* main.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1C564C361ED3A92E00087306 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BC5BE4BBD09374D3E98F082 /* Pods-whatdog.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = A8GCV2M324;
+				INFOPLIST_FILE = Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "re.bearwa.whatdog";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1C564C371ED3A92E00087306 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55ED318E8D29C8AFEF03DF1E /* Pods-whatdog.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = A8GCV2M324;
+				INFOPLIST_FILE = Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "re.bearwa.whatdog";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		591157B01CF4011D00C31E3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		591157B11CF4011D00C31E3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C564C351ED3A92E00087306 /* Build configuration list for PBXNativeTarget "whatdog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C564C361ED3A92E00087306 /* Debug */,
+				1C564C371ED3A92E00087306 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		591157961CF4011C00C31E3A /* Build configuration list for PBXProject "whatdog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				591157B01CF4011D00C31E3A /* Debug */,
+				591157B11CF4011D00C31E3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 591157931CF4011C00C31E3A /* Project object */;
+}
