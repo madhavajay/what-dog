@@ -1,0 +1,7 @@
+task copyModels() {
+    copy {
+        from "../data"
+        into file(project.ext.ASSET_DIR)
+        include "*.*"
+    }
+}
