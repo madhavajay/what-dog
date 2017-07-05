@@ -24,7 +24,7 @@
 
 // If you have your own model, modify this to the file name, and make sure
 // you've added the file to your app resources too.
-static NSString* model_file_name = @"dog_breed_graph_v1";
+static NSString* model_file_name = @"dog_breed_graph_v2";
 static NSString* model_file_type = @"pb";
 // This controls whether we'll be loading a plain GraphDef proto, or a
 // file created by the convert_graphdef_memmapped_format utility that wraps a
@@ -307,7 +307,10 @@ didOutputSampleBuffer:(CMSampleBufferRef)sampleBuffer
       for (int c = 0; c < wanted_input_channels; ++c) {
         // out_pixel[c] = (in_pixel[c] - input_mean) / input_std;
         // Changed
+        //float old_px = (in_pixel[c] - input_mean) / input_std;
+        //float new_px = ((in_pixel[c] / 255.0) - 0.5) * 2.0;
         out_pixel[c] = ((in_pixel[c] / 255.0) - 0.5) * 2.0;
+        //NSLog(@"old pixel %f new pixel %f", old_px, new_px);
       }
     }
   }

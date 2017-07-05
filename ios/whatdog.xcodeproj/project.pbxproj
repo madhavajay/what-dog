@@ -16,9 +16,9 @@
 		1CDB2D4A1ED3A9CD007929E9 /* CameraExampleViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1CDB2D451ED3A9CD007929E9 /* CameraExampleViewController.mm */; };
 		1CDB2D4C1ED3A9CD007929E9 /* tensorflow_utils.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1CDB2D481ED3A9CD007929E9 /* tensorflow_utils.mm */; };
 		1CDB2D4E1ED3AA35007929E9 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1CDB2D4D1ED3AA35007929E9 /* Info.plist */; };
-		E2012C6A1F0C22250054FF5A /* dog_breed_graph_v1.pb in Resources */ = {isa = PBXBuildFile; fileRef = E2012C681F0C22250054FF5A /* dog_breed_graph_v1.pb */; };
 		E2012C6B1F0C22250054FF5A /* dog_breed_labels.txt in Resources */ = {isa = PBXBuildFile; fileRef = E2012C691F0C22250054FF5A /* dog_breed_labels.txt */; };
 		E2012C6D1F0C22880054FF5A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2012C6C1F0C22880054FF5A /* Images.xcassets */; };
+		E20B9C211F0D750900B9DE49 /* dog_breed_graph_v2.pb in Resources */ = {isa = PBXBuildFile; fileRef = E20B9C201F0D750900B9DE49 /* dog_breed_graph_v2.pb */; };
 		F141010135B99B2305B537E6 /* Pods_whatdog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37F29186720B2D6BBB20B8C5 /* Pods_whatdog.framework */; };
 /* End PBXBuildFile section */
 
@@ -43,9 +43,9 @@
 		37F29186720B2D6BBB20B8C5 /* Pods_whatdog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_whatdog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BC5BE4BBD09374D3E98F082 /* Pods-whatdog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-whatdog.debug.xcconfig"; path = "Pods/Target Support Files/Pods-whatdog/Pods-whatdog.debug.xcconfig"; sourceTree = "<group>"; };
 		55ED318E8D29C8AFEF03DF1E /* Pods-whatdog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-whatdog.release.xcconfig"; path = "Pods/Target Support Files/Pods-whatdog/Pods-whatdog.release.xcconfig"; sourceTree = "<group>"; };
-		E2012C681F0C22250054FF5A /* dog_breed_graph_v1.pb */ = {isa = PBXFileReference; lastKnownFileType = file; name = dog_breed_graph_v1.pb; path = ../data/dog_breed_graph_v1.pb; sourceTree = "<group>"; };
 		E2012C691F0C22250054FF5A /* dog_breed_labels.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = dog_breed_labels.txt; path = ../data/dog_breed_labels.txt; sourceTree = "<group>"; };
 		E2012C6C1F0C22880054FF5A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = whatdog/Images.xcassets; sourceTree = "<group>"; };
+		E20B9C201F0D750900B9DE49 /* dog_breed_graph_v2.pb */ = {isa = PBXFileReference; lastKnownFileType = file; name = dog_breed_graph_v2.pb; path = ../data/dog_breed_graph_v2.pb; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,7 +117,7 @@
 		E2012C671F0C22120054FF5A /* data */ = {
 			isa = PBXGroup;
 			children = (
-				E2012C681F0C22250054FF5A /* dog_breed_graph_v1.pb */,
+				E20B9C201F0D750900B9DE49 /* dog_breed_graph_v2.pb */,
 				E2012C691F0C22250054FF5A /* dog_breed_labels.txt */,
 			);
 			name = data;
@@ -188,9 +188,9 @@
 			files = (
 				1C99111C1ED3B0E600A6BFB9 /* MainStoryboard_iPhone.storyboard in Resources */,
 				E2012C6D1F0C22880054FF5A /* Images.xcassets in Resources */,
-				E2012C6A1F0C22250054FF5A /* dog_breed_graph_v1.pb in Resources */,
 				1CDB2D4E1ED3AA35007929E9 /* Info.plist in Resources */,
 				E2012C6B1F0C22250054FF5A /* dog_breed_labels.txt in Resources */,
+				E20B9C211F0D750900B9DE49 /* dog_breed_graph_v2.pb in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +265,7 @@
 			baseConfigurationReference = 3BC5BE4BBD09374D3E98F082 /* Pods-whatdog.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -274,7 +274,7 @@
 				INFOPLIST_FILE = Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "re.bearwa.whatdog";
+				PRODUCT_BUNDLE_IDENTIFIER = re.bearwa.whatdog;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -288,7 +288,7 @@
 			baseConfigurationReference = 55ED318E8D29C8AFEF03DF1E /* Pods-whatdog.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -297,7 +297,7 @@
 				INFOPLIST_FILE = Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "re.bearwa.whatdog";
+				PRODUCT_BUNDLE_IDENTIFIER = re.bearwa.whatdog;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
