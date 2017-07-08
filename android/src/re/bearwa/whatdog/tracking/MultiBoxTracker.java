@@ -13,7 +13,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 ==============================================================================*/
 
-package com.madhavajay.whatdog.tracking;
+package re.bearwa.whatdog.tracking;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -31,10 +31,10 @@ import android.widget.Toast;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
-import com.madhavajay.whatdog.Classifier.Recognition;
-import com.madhavajay.whatdog.env.BorderedText;
-import com.madhavajay.whatdog.env.ImageUtils;
-import com.madhavajay.whatdog.env.Logger;
+import re.bearwa.whatdog.Classifier.Recognition;
+import re.bearwa.whatdog.env.BorderedText;
+import re.bearwa.whatdog.env.ImageUtils;
+import re.bearwa.whatdog.env.Logger;
 
 /**
  * A tracker wrapping ObjectTracker that also handles non-max suppression and matching existing

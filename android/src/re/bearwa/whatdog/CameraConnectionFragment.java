@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.madhavajay.whatdog;
+package re.bearwa.whatdog;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -58,7 +58,7 @@ import java.util.Comparator;
 import java.util.List;
 import java.util.concurrent.Semaphore;
 import java.util.concurrent.TimeUnit;
-import com.madhavajay.whatdog.env.Logger;
+import re.bearwa.whatdog.env.Logger;
 
 public class CameraConnectionFragment extends Fragment {
   private static final Logger LOGGER = new Logger();

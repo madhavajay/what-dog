@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.madhavajay.whatdog;
+package re.bearwa.whatdog;
 
 import android.content.Context;
 import android.util.AttributeSet;

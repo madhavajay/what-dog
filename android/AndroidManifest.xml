@@ -16,24 +16,27 @@
 -->
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.madhavajay.whatdog">
+    package="re.bearwa.whatdog">
 
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-feature android:name="android.hardware.camera" />
     <uses-feature android:name="android.hardware.camera.autofocus" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
-
+    <uses-permission android:name="android.permission.INTERNET" />
     <uses-sdk
         android:minSdkVersion="21"
         android:targetSdkVersion="23" />
 
     <application android:allowBackup="true"
-        android:debuggable="true"
         android:label="@string/app_name"
         android:icon="@drawable/ic_launcher"
         android:theme="@style/MaterialTheme">
 
-        <activity android:name="com.madhavajay.whatdog.ClassifierActivity"
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="***REMOVED***" />
+
+        <activity android:name="re.bearwa.whatdog.ClassifierActivity"
                   android:screenOrientation="portrait"
                   android:label="@string/activity_name_classification">
             <intent-filter>

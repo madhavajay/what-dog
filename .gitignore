@@ -68,3 +68,7 @@ android/gradleBuild/
 android/.gradle/
 android/.idea/
 android/assets/
+
+# Fabric
+android/fastlane/.env
+android/fabric.properties

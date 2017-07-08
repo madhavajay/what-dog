@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.madhavajay.whatdog;
+package re.bearwa.whatdog;
 
 import android.graphics.Bitmap;
 import android.graphics.Bitmap.Config;
@@ -34,9 +34,9 @@ import android.view.Display;
 import java.util.List;
 import java.util.Vector;
 
-import com.madhavajay.whatdog.env.BorderedText;
-import com.madhavajay.whatdog.env.ImageUtils;
-import com.madhavajay.whatdog.env.Logger;
+import re.bearwa.whatdog.env.BorderedText;
+import re.bearwa.whatdog.env.ImageUtils;
+import re.bearwa.whatdog.env.Logger;
 
 public class ClassifierActivity extends CameraActivity implements OnImageAvailableListener {
   private static final Logger LOGGER = new Logger();

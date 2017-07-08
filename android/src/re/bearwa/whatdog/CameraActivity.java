@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.madhavajay.whatdog;
+package re.bearwa.whatdog;
 
 import android.Manifest;
 import android.app.Activity;
@@ -31,7 +31,10 @@ import android.view.KeyEvent;
 import android.view.WindowManager;
 import android.widget.Toast;
 import java.nio.ByteBuffer;
-import com.madhavajay.whatdog.env.Logger;
+import re.bearwa.whatdog.env.Logger;
+
+import com.crashlytics.android.Crashlytics;
+import io.fabric.sdk.android.Fabric;
 
 public abstract class CameraActivity extends Activity implements OnImageAvailableListener {
   private static final Logger LOGGER = new Logger();
@@ -50,6 +53,7 @@ public abstract class CameraActivity extends Activity implements OnImageAvailabl
   protected void onCreate(final Bundle savedInstanceState) {
     LOGGER.d("onCreate " + this);
     super.onCreate(null);
+    Fabric.with(this, new Crashlytics());
     getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
 
     setContentView(R.layout.activity_camera);

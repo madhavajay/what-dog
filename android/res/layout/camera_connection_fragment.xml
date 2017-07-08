@@ -17,19 +17,19 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <com.madhavajay.whatdog.AutoFitTextureView
+    <re.bearwa.whatdog.AutoFitTextureView
         android:id="@+id/texture"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true" />
 
-    <com.madhavajay.whatdog.RecognitionScoreView
+    <re.bearwa.whatdog.RecognitionScoreView
         android:id="@+id/results"
         android:layout_width="match_parent"
         android:layout_height="112dp"
         android:layout_alignParentTop="true" />
 
-    <com.madhavajay.whatdog.OverlayView
+    <re.bearwa.whatdog.OverlayView
         android:id="@+id/debug_overlay"
         android:layout_width="match_parent"
         android:layout_height="match_parent"

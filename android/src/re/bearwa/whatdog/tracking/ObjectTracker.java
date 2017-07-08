@@ -13,7 +13,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 ==============================================================================*/
 
-package com.madhavajay.whatdog.tracking;
+package re.bearwa.whatdog.tracking;
 
 import android.graphics.Canvas;
 import android.graphics.Color;
@@ -29,8 +29,8 @@ import java.util.List;
 import java.util.Map;
 import java.util.Vector;
 import javax.microedition.khronos.opengles.GL10;
-import com.madhavajay.whatdog.env.Logger;
-import com.madhavajay.whatdog.env.Size;
+import re.bearwa.whatdog.env.Logger;
+import re.bearwa.whatdog.env.Size;
 
 /**
  * True object detector/tracker class that tracks objects across consecutive preview frames.
