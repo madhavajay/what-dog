@@ -5,7 +5,7 @@
 [![@madhavajay](https://img.shields.io/badge/twitter-@madhavajay-blue.svg?style=flat)](http://twitter.com/madhavajay)
 ![ios](https://img.shields.io/badge/runs_on-ios-lightgrey.svg)
 ![android](https://img.shields.io/badge/runs_on-android-green.svg)
-![tensorflow](https://img.shields.io/badge/build_with-tensorflow-orange.svg)
+![tensorflow](https://img.shields.io/badge/built_with-tensorflow-orange.svg)
 
 # 🐶 What Dog? - Mobile App for Dog Breed Detection
 "What Dog?" is a mobile app based on the TensorFlow example classification app with a new model trained to detect dog breeds.
