@@ -1,0 +1,7 @@
+app_identifier "re.bearwa.whatdog" # The bundle identifier of your app
+apple_id "bearwareapps@gmail.com" # Your Apple email address
+
+team_id "QMLQF78Y67" # Developer Portal Team ID
+
+# you can even provide different app identifiers, Apple IDs and team names per lane:
+# More information: https://github.com/fastlane/fastlane/blob/master/fastlane/docs/Appfile.md

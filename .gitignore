@@ -70,5 +70,6 @@ android/.idea/
 android/assets/
 
 # Fabric
+ios/fastlane/.env
 android/fastlane/.env
 android/fabric.properties
