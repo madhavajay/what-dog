@@ -53,7 +53,12 @@ public abstract class CameraActivity extends Activity implements OnImageAvailabl
   protected void onCreate(final Bundle savedInstanceState) {
     LOGGER.d("onCreate " + this);
     super.onCreate(null);
-    Fabric.with(this, new Crashlytics());
+    if (BuildConfig.USE_FABRIC) {
+      LOGGER.d("Fabric Enabled");
+      Fabric.with(this, new Crashlytics());
+    } else {
+      LOGGER.d("Fabric Disabled");
+    }
     getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
 
     setContentView(R.layout.activity_camera);

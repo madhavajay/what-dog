@@ -83,6 +83,7 @@ android {
 
     if (nativeBuildSystem == 'cmake') {
         defaultConfig {
+            buildConfigField "boolean", "USE_FABRIC", "false"
             applicationId = 're.bearwa.whatdog'
             minSdkVersion 21
             targetSdkVersion 23
@@ -155,11 +156,14 @@ android {
         }
     }
     buildTypes {
+        def USE_FABRIC = "USE_FABRIC"
         debug {
+            buildConfigField "boolean", "USE_FABRIC", "false"
             debuggable true
             signingConfig signingConfigs.debug
         }
         beta {
+            buildConfigField "boolean", "USE_FABRIC", "true"
             debuggable false
             signingConfig signingConfigs.beta
         }

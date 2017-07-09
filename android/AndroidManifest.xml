@@ -32,10 +32,6 @@
         android:icon="@drawable/ic_launcher"
         android:theme="@style/MaterialTheme">
 
-        <meta-data
-            android:name="io.fabric.ApiKey"
-            android:value="***REMOVED***" />
-
         <activity android:name="re.bearwa.whatdog.ClassifierActivity"
                   android:screenOrientation="portrait"
                   android:label="@string/activity_name_classification">
