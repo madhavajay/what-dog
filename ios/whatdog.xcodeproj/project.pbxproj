@@ -130,8 +130,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1C564C351ED3A92E00087306 /* Build configuration list for PBXNativeTarget "whatdog" */;
 			buildPhases = (
-				E2FA772E1F1225F600505B65 /* Fabric plist */,
 				66DAEAAEE9EF6550C3A061E0 /* [CP] Check Pods Manifest.lock */,
+				E2FA772E1F1225F600505B65 /* Fabric plist */,
 				1C564C091ED3A92E00087306 /* Sources */,
 				1C564C0A1ED3A92E00087306 /* Frameworks */,
 				1C564C0B1ED3A92E00087306 /* Resources */,

@@ -71,5 +71,8 @@ android/assets/
 
 # Fabric
 ios/fastlane/.env
+ios/fastlane/report.xml
+ios/*.mobileprovision
 android/fastlane/.env
+android/fastlane/report.xml
 android/fabric.properties
