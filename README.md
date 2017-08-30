@@ -18,7 +18,7 @@ Unlike theirs, I wanted my app to do offline on-device inference with my trained
 Plus this serves as an open source example for any other Udacity AIND students who want to test their models outside on RL dogs.
 
 ## Why Dog Breeds?
-I did this project as part of the [Udacity - Artificial Intelligence Nanodegree](https://github.com/madhavajay/nd889) on CNNs and transfer learning in Keras. You can read more about the project in my [dog_app.ipynb](https://github.com/madhavajay/nd889/blob/dog_classifier/2_deep_learning/4_dog_breed_classifier/dog_app.ipynb) Jupyter Notebook.
+I did this project as part of the [Udacity - Artificial Intelligence Nanodegree](https://github.com/madhavajay/nd889) on CNNs and transfer learning in Keras. You can read more about the project in my [dog_app.ipynb](https://github.com/madhavajay/nd889/blob/master/2_deep_learning/1_dog_breed_classifier/dog_app.ipynb) Jupyter Notebook.
 
 The model was based on Google's InceptionV3 model and retrained using Transfer Learning. I followed some suggestions for Transfer Learning and Fine Tuning from [@dlsandbox](https://twitter.com/dlsandbox) on his [Github](https://github.com/DeepLearningSandbox/DeepLearningSandbox/blob/master/transfer_learning/fine-tune.py).
 
