@@ -1,19 +1,19 @@
 PODS:
-  - Crashlytics (3.8.4):
-    - Fabric (~> 1.6.3)
-  - Fabric (1.6.11)
+  - Crashlytics (3.9.3):
+    - Fabric (~> 1.7.2)
+  - Fabric (1.7.2)
   - TensorFlow-experimental (1.1.1)
 
 DEPENDENCIES:
-  - Crashlytics
+  - Crashlytics (~> 3.9)
   - Fabric
   - TensorFlow-experimental
 
 SPEC CHECKSUMS:
-  Crashlytics: 79e236942ca1e7fc641df1feb9a275360a78ab6a
-  Fabric: 5911403591946b8228ab1c51d98f1d7137e863c6
+  Crashlytics: dbb07d01876c171c5ccbdf7826410380189e452c
+  Fabric: 9cd6a848efcf1b8b07497e0b6a2e7d336353ba15
   TensorFlow-experimental: c38ed2a43acaa2d42ce4174ac076efaa76e26a12
 
-PODFILE CHECKSUM: d324ab02b0a53cf33991a0e360ab66de96b7c125
+PODFILE CHECKSUM: aa293de7123dba8d07d18a7860940d7149b5d6c9
 
-COCOAPODS: 1.2.1
+COCOAPODS: 1.3.1
